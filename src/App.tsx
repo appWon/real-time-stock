@@ -1,7 +1,15 @@
-import React, { ReactElement } from 'react';
+import React, { FC } from 'react';
+import GlobalStyle from './style/GlobalStyle';
 
-const App = (): ReactElement => {
-  return <div>초기세팅</div>;
+import StockList from './pages/stockList';
+
+const App: FC = () => {
+  return (
+    <div>
+      <GlobalStyle />
+      <StockList></StockList>
+    </div>
+  );
 };
 
 export default App;

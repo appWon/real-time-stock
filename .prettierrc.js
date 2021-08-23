@@ -5,7 +5,7 @@ module.exports = {
   //세미콜론 사용
   singleQuote: true,
   //싱글쿼터
-  arrowParens: 'avoid',
+  arrowParens: "avoid",
   //설정 전 (x) => x
   //설정 후  x  => x
   jsxBracketSameLine: false,
@@ -14,7 +14,7 @@ module.exports = {
   //>
   bracketSpacing: true,
   //{foo: bar}  =>  { foo: bar }
-  trailingComma: 'es5',
+  trailingComma: "es5",
   //배열,객체 후행 쉼표 사용
   printWidth: 80,
   //한 줄 길이

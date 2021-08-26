@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 
 export const color = {
   pink: '#ff3a5c',
-  grey: '#eeeeee',    
+  grey: '#eeeeee',
 };
 
 export const flex_coumn = css`

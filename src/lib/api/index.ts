@@ -1,3 +1,4 @@
-import { api } from './settingApi';
+import { api } from './restApi';
+import { socket } from './webSocket';
 
-export default api;
+export { api, socket };
